@@ -732,6 +732,7 @@ export interface UnlikePostResult {
 export interface SharePostResult {
   success: boolean;
   shareId: string;
+  repostId: string;
 }
 
 export interface GetCommentsResult {
